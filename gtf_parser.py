@@ -33,6 +33,6 @@ with open(args.file) as file:
             continue
         else:
             line_type=line.split()[2]
-            if line_type == "gene":
+            if line_type == "mRNA":
                 print_result(line, step)
                                                
